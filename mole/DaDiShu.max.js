@@ -23396,7 +23396,7 @@ window.Laya=(function(window,document){
 		}
 
 		__static(LoadViewUI,
-		['uiView',function(){return this.uiView={"type":"View","props":{"width":800,"height":600},"child":[{"type":"Label","props":{"y":294,"x":382,"text":"加载中","color":"#3dd228"}},{"type":"ProgressBar","props":{"y":345.5,"x":249.5,"var":"progressBar","skin":"load/progress_load.png"}}]};}
+		['uiView',function(){return this.uiView={"type":"View","props":{"width":800,"height":600},"child":[{"type":"Label","props":{"y":294,"x":382,"text":"加载中","color":"#3dd228"}},{"type":"ProgressBar","props":{"y":345.5,"x":249.5,"var":"progressBar","value":0,"skin":"load/progress_load.png"}}]};}
 		]);
 		return LoadViewUI;
 	})(View2)
